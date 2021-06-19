@@ -1,0 +1,4 @@
+:root {
+    --surface-color: theme('colors.white');
+    --primary: var(--surface-color);
+}
