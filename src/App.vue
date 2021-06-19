@@ -1,7 +1,3 @@
-<template>
-  <Fab>Click me</Fab>
-</template>
+<template></template>
 
-<script setup>
-import { Fab } from "./components";
-</script>
+<script setup></script>
