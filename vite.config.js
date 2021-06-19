@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/components/Banner.js'),
+      entry: path.resolve(__dirname, 'src/components'),
       formats: ['es'],
     },
     rollupOptions: {
