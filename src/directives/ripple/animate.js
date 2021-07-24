@@ -1,0 +1,1 @@
+export default function animate(el, { keyframes, options }) { return el.animate(keyframes, options) }
