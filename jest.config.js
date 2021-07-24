@@ -5,5 +5,5 @@ module.exports = {
         "^.+\\.vue$": "vue-jest",
         "^.+\\js$": "babel-jest"
     },
-    moduleFileExtensions: [...defaults.moduleFileExtensions, 'vue']
+    moduleFileExtensions: [...defaults.moduleFileExtensions, 'vue'],
 }
