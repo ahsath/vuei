@@ -9,21 +9,21 @@
     "unit:test": "yarn jest"
   },
   "dependencies": {
-    "vue": "^3.1.5"
+    "vue": "^3.2.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.8",
-    "@babel/preset-env": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/vue": "next",
-    "@vitejs/plugin-vue": "^1.2.5",
-    "@vue/compiler-sfc": "^3.1.5",
+    "@vitejs/plugin-vue": "^1.4.0",
+    "@vue/compiler-sfc": "^3.2.2",
     "autoprefixer": "^10.3.1",
     "babel-jest": "^27.0.6",
     "jest": "^27.0.6",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.7",
-    "vite": "^2.4.3",
-    "vue-jest": "^5.0.0-alpha.10"
+    "vite": "^2.5.0",
+    "vue3-jest": "27.0.0-alpha.2"
   }
 }
