@@ -9,7 +9,7 @@
     "unit:test": "yarn jest"
   },
   "dependencies": {
-    "vue": "^3.2.2"
+    "vue": "^3.2.4"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
