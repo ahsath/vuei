@@ -5,5 +5,6 @@ module.exports = {
         "^.+\\.vue$": "vue3-jest",
         "^.+\\js$": "babel-jest"
     },
-    moduleFileExtensions: [...defaults.moduleFileExtensions, 'vue']
+    moduleFileExtensions: [...defaults.moduleFileExtensions, 'vue'],
+    setupFilesAfterEnv: ['./jest.setup.js']
 }

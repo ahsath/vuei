@@ -3,4 +3,10 @@ import App from './App.vue'
 
 import './css/index.css'
 
-createApp(App).mount('#app')
+import ripple from './directives/ripple'
+
+const app = createApp(App)
+
+app.directive('ripple', ripple)
+
+app.mount('#app')
