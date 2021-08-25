@@ -18,4 +18,13 @@ describe('ripple', () => {
         await fireEvent.mouseDown(button)
         await waitFor(() => expect(button).toContainElement(getByTestId('ripple')))
     })
+
+    it('sets the bg color class passed to v-ripple as a value on the span element', async () => {
+        const template = { template: '<button v-ripple="{ class: `ripple-bg-color-class` }" style="width: 100px; height: 100px" />' }
+        const { getByRole, getByTestId } = renderFactory(template)
+        const button = getByRole('button')
+
+        await fireEvent.mouseDown(button)
+        await waitFor(() => expect(getByTestId('ripple')).toHaveClass('ripple-bg-color-class'))
+    })
 })
