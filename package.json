@@ -18,7 +18,7 @@
     "@testing-library/vue": "next",
     "@vitejs/plugin-vue": "1.9.3",
     "@vitejs/plugin-vue-jsx": "1.2.0",
-    "@vue/compiler-sfc": "3.2.19",
+    "@vue/compiler-sfc": "3.2.20",
     "autoprefixer": "10.3.7",
     "babel-jest": "27.2.5",
     "jest": "27.2.5",
