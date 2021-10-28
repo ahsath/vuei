@@ -19,7 +19,7 @@
     "@vitejs/plugin-vue": "1.9.3",
     "@vitejs/plugin-vue-jsx": "1.2.0",
     "@vue/compiler-sfc": "3.2.20",
-    "autoprefixer": "10.3.7",
+    "autoprefixer": "10.4.0",
     "babel-jest": "27.3.1",
     "jest": "27.3.1",
     "postcss": "8.3.11",
